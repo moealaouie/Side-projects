@@ -13,7 +13,6 @@ $num=0;
             $tails=$tails+1;
             
             echo "Flip # $num: tails ";
-            echo '<img src="/~mhalaouie/cis122/images/tails.png"/>';
             echo "<br>";
         
         }
@@ -22,7 +21,6 @@ $num=0;
             $num=$i+1;
             $heads=$heads+1;
             echo "Flip # $num : heads";
-            echo '<img src="/~mhalaouie/cis122/images/heads.png"/>';
             echo "<br>";
         }
     }
